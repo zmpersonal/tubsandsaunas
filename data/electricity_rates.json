@@ -1,0 +1,1 @@
+{"updated_at":"2026-08-09","default_rate":0.18,"note":"Starter planning rate. The updater can replace state values from EIA when an EIA_API_KEY secret is configured.","states":{"US":0.18,"TX":0.15,"CA":0.32,"FL":0.15,"NY":0.25,"WA":0.12,"MA":0.29,"AZ":0.16,"CO":0.16,"IL":0.17,"PA":0.18,"NC":0.14,"GA":0.14,"OH":0.16,"MI":0.19,"NJ":0.21,"VA":0.15,"TN":0.13,"OR":0.14,"NV":0.16}}

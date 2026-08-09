@@ -1,0 +1,14 @@
+{
+  "updated_at":"2026-08-09",
+  "source":"InHouse Wellness",
+  "items":[
+    {"category":"sauna","name":"Dynamic Venice 2-Person Infrared Sauna","brand":"Dynamic Saunas","price":2499,"url":"https://inhousewellness.com/products/dynamic-infrared-sauna-venice-edition","capacity":2,"indoor_outdoor":"indoor","voltage":120,"fit":"compact"},
+    {"category":"sauna","name":"Dynamic Avila Elite 1-2 Person Infrared Sauna","brand":"Dynamic Saunas","price":2299,"url":"https://inhousewellness.com/products/dynamic-saunas-avila-elite","capacity":2,"indoor_outdoor":"indoor","voltage":120,"fit":"compact"},
+    {"category":"sauna","name":"SaunaLife Model G3 Outdoor Sauna Kit","brand":"SaunaLife","price":7940,"url":"https://inhousewellness.com/collections/saunas","capacity":4,"indoor_outdoor":"outdoor","voltage":240,"fit":"backyard"},
+    {"category":"sauna","name":"Golden Designs Forssa 4-Person Traditional Sauna","brand":"Golden Designs","price":6999,"url":"https://inhousewellness.com/collections/saunas","capacity":4,"indoor_outdoor":"indoor","voltage":240,"fit":"family"},
+    {"category":"cold-plunge","name":"Dreampod Ice Series Barrel FLEX with Chiller","brand":"Dreampod","price":3515,"url":"https://inhousewellness.com/products/dreampod-ice-series-cold-plunge-barrel-flex","capacity":1,"indoor_outdoor":"both","voltage":120,"fit":"compact"},
+    {"category":"cold-plunge","name":"Dynamic Cold Therapy PVC Barrel Cold Plunge","brand":"Dynamic Cold Therapy","price":2299,"url":"https://inhousewellness.com/products/dynamic-cold-therapy-pvc-barrel-cold-plunge","capacity":1,"indoor_outdoor":"both","voltage":120,"fit":"compact"},
+    {"category":"cold-plunge","name":"Dynamic Cold Therapy 1.0 HP Cold/Heat System","brand":"Dynamic Cold Therapy","price":3699,"url":"https://inhousewellness.com/products/dynamic-cold-therapy-chiller-dct-sv-10do3","capacity":1,"indoor_outdoor":"both","voltage":120,"fit":"flexible"},
+    {"category":"cold-plunge","name":"Medical Frozen 7 Cold Plunge","brand":"Medical Saunas","price":11649,"url":"https://inhousewellness.com/collections/cold-plunge","capacity":1,"indoor_outdoor":"both","voltage":120,"fit":"premium"}
+  ]
+}
