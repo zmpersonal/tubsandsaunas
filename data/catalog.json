@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-17",
   "source": "InHouse Wellness public Shopify collection data",
   "items": [
     {
@@ -111,6 +111,17 @@
       "indoor_outdoor": "indoor",
       "voltage": null,
       "fit": "compact"
+    },
+    {
+      "category": "sauna",
+      "name": "Golden Designs GDI-6880-02 Elite Catalonia 8 Person Ultra Low EMF Far Infrared Sauna",
+      "brand": "Golden Designs Inc",
+      "price": 9999.0,
+      "url": "https://inhousewellness.com/products/golden-designs-gdi-6880-02-elite-catalonia",
+      "capacity": 8,
+      "indoor_outdoor": "both",
+      "voltage": null,
+      "fit": "family"
     },
     {
       "category": "sauna",
@@ -418,17 +429,6 @@
       "capacity": null,
       "indoor_outdoor": "indoor",
       "voltage": 240,
-      "fit": "family"
-    },
-    {
-      "category": "sauna",
-      "name": "Golden Designs GDI-6880-02 Elite Catalonia 8 Person Ultra Low EMF Far Infrared Sauna",
-      "brand": "Golden Designs Inc",
-      "price": 0.0,
-      "url": "https://inhousewellness.com/products/golden-designs-gdi-6880-02-elite-catalonia",
-      "capacity": 8,
-      "indoor_outdoor": "both",
-      "voltage": null,
       "fit": "family"
     },
     {
@@ -1291,17 +1291,6 @@
     },
     {
       "category": "cold-plunge",
-      "name": "Medical Frozen 9 Cold Plunge | Essential Oil Infuser | 37°F Safe Therapy",
-      "brand": "Frozen",
-      "price": 13649.0,
-      "url": "https://inhousewellness.com/products/medical-frozen-9-cold-plunge",
-      "capacity": null,
-      "indoor_outdoor": "outdoor",
-      "voltage": null,
-      "fit": "premium"
-    },
-    {
-      "category": "cold-plunge",
       "name": "Dundalk LeisureCraft The Polar Cold Plunge Tub",
       "brand": "Leisure Craft",
       "price": 3315.0,
@@ -1423,87 +1412,10 @@
     },
     {
       "category": "cold-plunge",
-      "name": "Medical Frozen 8 Cold Plunge – Essential Oil Infuser, 37°F Freezing, Indoor-Outdoor Use",
-      "brand": "Frozen",
-      "price": 12649.0,
-      "url": "https://inhousewellness.com/products/medical-frozen-8-cold-plunge",
-      "capacity": null,
-      "indoor_outdoor": "outdoor",
-      "voltage": null,
-      "fit": "premium"
-    },
-    {
-      "category": "cold-plunge",
-      "name": "Medical Frozen 6 Cold Plunge | XL Size with Essential Oil Infuser & Steam Generator",
-      "brand": "Frozen",
-      "price": 12649.0,
-      "url": "https://inhousewellness.com/products/medical-frozen-6-cold-plunge-xl",
-      "capacity": null,
-      "indoor_outdoor": "outdoor",
-      "voltage": null,
-      "fit": "premium"
-    },
-    {
-      "category": "cold-plunge",
-      "name": "Medical Frozen 7 Cold Plunge - Heavy Duty, Essential Oil Infuser, UV Sanitizing, Indoor/Outdoor Cold Therapy Tub",
-      "brand": "Frozen",
-      "price": 11649.0,
-      "url": "https://inhousewellness.com/products/medical-frozen-7-cold-plunge",
-      "capacity": null,
-      "indoor_outdoor": "both",
-      "voltage": null,
-      "fit": "premium"
-    },
-    {
-      "category": "cold-plunge",
-      "name": "Frozen 5 Cold Plunge - Medical-Grade Cold Water Therapy with Essential Oil Infuser",
-      "brand": "Frozen",
-      "price": 11649.0,
-      "url": "https://inhousewellness.com/products/frozen-5-cold-plunge",
-      "capacity": null,
-      "indoor_outdoor": "outdoor",
-      "voltage": null,
-      "fit": "premium"
-    },
-    {
-      "category": "cold-plunge",
       "name": "Medical Frozen 4 Cold Plunge – X-Large Size (Up to 6'6\", 350 lbs) for Ultimate Cold Therapy",
       "brand": "Frozen",
-      "price": 10649.0,
+      "price": 12649.0,
       "url": "https://inhousewellness.com/products/medical-frozen-4-cold-plunge-xl",
-      "capacity": null,
-      "indoor_outdoor": "both",
-      "voltage": null,
-      "fit": "premium"
-    },
-    {
-      "category": "cold-plunge",
-      "name": "Medical Frozen 3 Cold Plunge – Advanced Cold Water Tub",
-      "brand": "Frozen",
-      "price": 11649.0,
-      "url": "https://inhousewellness.com/products/medical-frozen-3-cold-plunge",
-      "capacity": null,
-      "indoor_outdoor": "both",
-      "voltage": null,
-      "fit": "premium"
-    },
-    {
-      "category": "cold-plunge",
-      "name": "Medical Frozen 2 Cold Plunge – Premium Cold Therapy",
-      "brand": "Frozen",
-      "price": 9649.0,
-      "url": "https://inhousewellness.com/products/medical-frozen-2-cold-plunge",
-      "capacity": null,
-      "indoor_outdoor": "both",
-      "voltage": null,
-      "fit": "premium"
-    },
-    {
-      "category": "cold-plunge",
-      "name": "Medical Frozen Plunge 1 - Standard Size Cold Plunge for Recovery & Wellness",
-      "brand": "Frozen",
-      "price": 9649.0,
-      "url": "https://inhousewellness.com/products/medical-frozen-plunge-1-cold-therapy",
       "capacity": null,
       "indoor_outdoor": "both",
       "voltage": null,
