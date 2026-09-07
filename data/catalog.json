@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-07",
   "source": "InHouse Wellness public Shopify collection data",
   "items": [
     {
@@ -45,17 +45,6 @@
       "indoor_outdoor": "indoor",
       "voltage": null,
       "fit": "compact"
-    },
-    {
-      "category": "sauna",
-      "name": "Maxxus Low EMF FAR Infrared Sauna - 3-Person Capacity, Canadian Hemlock",
-      "brand": "Maxxus",
-      "price": 2999.0,
-      "url": "https://inhousewellness.com/products/maxxus-3-person-sauna-hemlock",
-      "capacity": 3,
-      "indoor_outdoor": "both",
-      "voltage": null,
-      "fit": "family"
     },
     {
       "category": "sauna",
