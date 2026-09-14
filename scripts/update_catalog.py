@@ -42,7 +42,7 @@ def convert(cat,p):
     body=html.unescape(re.sub('<[^>]+>',' ',p.get('body_html') or ''))
     text=(p.get('title','')+' '+body)
     handle=p.get('handle','')
-    return {'category':cat,'name':p.get('title','').strip(),'brand':guess_brand(p),'price':price,'url':f'https://inhousewellness.com/products/{handle}','capacity':capacity(text),'indoor_outdoor':setting(text),'voltage':voltage(text),'fit':fit(cat,text)}
+    return {'category':cat,'name':p.get('title','').strip(),'brand':guess_brand(p),'price':price,'retailer':'InHouse Wellness','url':'/buying-guide/#inhouse-wellness','capacity':capacity(text),'indoor_outdoor':setting(text),'voltage':voltage(text),'fit':fit(cat,text)}
 def main():
     old=json.loads(OUT.read_text()) if OUT.exists() else {'items':[]}
     items=[];errors=[]
@@ -56,7 +56,9 @@ def main():
         print('No live products fetched; retaining starter catalog.')
         if errors: print('\n'.join(errors))
         return
-    dedup={x['url']:x for x in items}
+    # Every public product link intentionally routes through the local buying
+    # guide, so URL cannot be used as the deduplication key.
+    dedup={(x['category'],x['brand'],x['name']):x for x in items}
     payload={'updated_at':datetime.now(timezone.utc).date().isoformat(),'source':'InHouse Wellness public Shopify collection data','items':list(dedup.values())}
     OUT.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n')
     print(f'Wrote {len(dedup)} products')

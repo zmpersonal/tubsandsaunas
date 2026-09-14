@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-09-14",
+  "method": "Curated from official retailer product catalogs; verify current specifications and pricing with the seller.",
+  "items": [
+    {"category":"sauna","name":"Nova 3-Person Indoor Traditional Sauna","brand":"Sun Home","price":11999,"retailer":"Sun Home Saunas","url":"/buying-guide/#sun-home","capacity":3,"indoor_outdoor":"indoor","voltage":240,"fit":"family"},
+    {"category":"cold-plunge","name":"Cold Plunge Pro","brand":"Sun Home","price":null,"retailer":"Sun Home Saunas","url":"/buying-guide/#sun-home","capacity":1,"indoor_outdoor":"both","voltage":120,"fit":"premium"},
+    {"category":"sauna","name":"Duo Outdoor Sauna — 2 Person","brand":"Redwood Outdoors","price":5899,"retailer":"Redwood Outdoors","url":"/buying-guide/#redwood-outdoors","capacity":2,"indoor_outdoor":"outdoor","voltage":240,"fit":"backyard"},
+    {"category":"cold-plunge","name":"Alaskan All-In-One Cold Plunge","brand":"Redwood Outdoors","price":6999,"retailer":"Redwood Outdoors","url":"/buying-guide/#redwood-outdoors","capacity":1,"indoor_outdoor":"outdoor","voltage":120,"fit":"premium"},
+    {"category":"sauna","name":"Rusticus 3 Person Indoor Sauna","brand":"Renu Therapy","price":6050,"retailer":"Renu Therapy","url":"/buying-guide/#renu-therapy","capacity":3,"indoor_outdoor":"indoor","voltage":240,"fit":"family"},
+    {"category":"cold-plunge","name":"Cold Stoic 3.0","brand":"Renu Therapy","price":11399,"retailer":"Renu Therapy","url":"/buying-guide/#renu-therapy","capacity":1,"indoor_outdoor":"both","voltage":120,"fit":"premium"},
+    {"category":"sauna","name":"Sanctuary 3 Full Spectrum Infrared Sauna","brand":"Clearlight","price":null,"retailer":"Clearlight","url":"/buying-guide/#clearlight","capacity":3,"indoor_outdoor":"indoor","voltage":null,"fit":"family"},
+    {"category":"cold-plunge","name":"Clearlight Plunge","brand":"Clearlight","price":null,"retailer":"Clearlight","url":"/buying-guide/#clearlight","capacity":1,"indoor_outdoor":"both","voltage":120,"fit":"premium"}
+  ]
+}

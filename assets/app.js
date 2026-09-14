@@ -1,20 +1,30 @@
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 let catalog=[]; let rates={default_rate:.18,states:{US:.18}};
 async function loadData(){
-  try{catalog=(await (await fetch('/data/catalog.json')).json()).items||[]}catch(e){catalog=[]}
+  let primary=[],curated=[];
+  try{primary=(await (await fetch('/data/catalog.json')).json()).items||[]}catch(e){}
+  try{curated=(await (await fetch('/data/curated_products.json')).json()).items||[]}catch(e){}
+  catalog=[...primary.map(x=>({...x,retailer:x.retailer||'InHouse Wellness',url:'/buying-guide/#inhouse-wellness'})),...curated];
   try{rates=await (await fetch('/data/electricity_rates.json')).json()}catch(e){}
   renderRecommendations('sauna');
 }
-function money(n){return new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n||0)}
+function money(n){return n==null?'Price varies':new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n)}
 function rateFor(state){return (rates.states&&rates.states[state])||rates.default_rate||.18}
 function renderRecommendations(cat, budget=Infinity, outdoor='both'){
   const box=$('#recommendations'); if(!box)return;
-  let items=catalog.filter(x=>x.category===cat && x.price<=budget*1.15);
+  let items=catalog.filter(x=>x.category===cat && (x.price==null?budget>=12000:x.price<=budget*1.15));
   if(outdoor==='outdoor') items=items.filter(x=>x.indoor_outdoor==='outdoor'||x.indoor_outdoor==='both');
   if(outdoor==='indoor') items=items.filter(x=>x.indoor_outdoor==='indoor'||x.indoor_outdoor==='both');
-  items.sort((a,b)=>a.price-b.price); items=items.slice(0,3);
-  if(!items.length){box.innerHTML='<div class="muted">No exact catalog match in the starter data. Browse the full InHouse collection below.</div>';return}
-  box.innerHTML=items.map(x=>`<div class="rec"><div><b>${x.name}</b><br><small>${x.brand} · Featured retailer: InHouse Wellness</small><br><a href="${x.url}" target="_blank" rel="noopener">View at InHouse Wellness →</a></div><div class="price">${money(x.price)}</div></div>`).join('');
+  const byPrice=(a,b)=>(a.price==null?Infinity:a.price)-(b.price==null?Infinity:b.price);
+  const featured=items.filter(x=>x.retailer==='InHouse Wellness').sort(byPrice).slice(0,2);
+  const alternatives=items.filter(x=>x.retailer!=='InHouse Wellness').sort(byPrice).slice(0,2);
+  items=[...featured,...alternatives];
+  if(!items.length){box.innerHTML='<div class="muted">No exact catalog match in the current data. Review the buying guide for additional sources.</div>';return}
+  box.innerHTML=items.map(x=>{
+    const featuredRetailer=x.retailer==='InHouse Wellness';
+    const label=featuredRetailer?'Buy here — featured retailer':'Review buying source';
+    return `<div class="rec${featuredRetailer?' featured-rec':''}"><div><b>${x.name}</b><br><small>${x.brand} · <a href="${x.url}">${x.retailer}</a></small><br><a href="${x.url}">${label} →</a></div><div class="price">${money(x.price)}</div></div>`;
+  }).join('');
 }
 function initSegments(){
   $$('.seg').forEach(group=>group.addEventListener('click',e=>{if(e.target.tagName!=='BUTTON')return;$$('button',group).forEach(b=>b.classList.remove('active'));e.target.classList.add('active');group.dataset.value=e.target.dataset.value;calculatePlanner();}));
@@ -38,8 +48,8 @@ function calculatePlanner(){
   const annual=primary==='combo'?saunaCost+plungeCost:primary==='sauna'?saunaCost:primary==='cold-plunge'?plungeCost:hotTubCost;
   $('#planTitle').textContent=title; $('#planReason').textContent=reason;
   $('#areaOut').textContent=`${area} sq ft`; $('#footprintOut').textContent=footprint; $('#energyOut').textContent=`~${money(annual)}/yr`; $('#rateOut').textContent=`${(rate*100).toFixed(1)}¢/kWh planning rate`;
-  let cat=primary==='cold-plunge'?'cold-plunge':'sauna'; if(primary==='combo')cat='sauna';
-  $('#recHeading').textContent=primary==='combo'?'Start with these sauna options':'Matching InHouse options';
+  let cat=primary==='hot-tub'?'hot-tub':primary==='cold-plunge'?'cold-plunge':'sauna'; if(primary==='combo')cat='sauna';
+  $('#recHeading').textContent=primary==='combo'?'Start with these sauna options':'Matching products and sources';
   renderRecommendations(cat,budget,setting);
   const comboNote=$('#comboNote'); if(comboNote) comboNote.classList.toggle('hide',primary!=='combo');
   const yard=$('#yardPreview'); if(yard){

@@ -7,7 +7,9 @@ GitHub Pages-ready static site for an interactive backyard wellness planner.
 - Sauna vs cold plunge vs hot tub comparison
 - Electricity cost calculator
 - Electrical planning guide
-- Featured InHouse Wellness product recommendations
+- Product recommendations from a disclosed featured retailer plus four non-overlapping alternative product lines
+- Editorial buying guide with centralized retailer links and selection criteria
+- Full site footer with About, Methodology, Editorial Policy, Disclaimer and Privacy pages
 - Weekly automated product refresh from public InHouse Wellness Shopify collection data
 - Optional EIA residential electricity-rate refresh
 
@@ -31,7 +33,7 @@ The updater uses the EIA v2 electricity retail-sales dataset and the residential
 ## Data philosophy
 The planner provides rough screening estimates. Product manuals, local code, electricians, plumbers and site professionals control real installation decisions.
 
-InHouse Wellness is the featured retail partner. That commercial relationship is disclosed on the methodology page.
+InHouse Wellness is the featured retail partner. That commercial relationship and its effect on product display order are disclosed on the buying-guide and methodology pages. Product links route through the buying guide instead of linking every card directly to a retailer.
 
 
 ## Design identity
