@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-09-21",
   "source": "InHouse Wellness public Shopify collection data",
   "items": [
     {
@@ -724,54 +724,6 @@
     },
     {
       "category": "sauna",
-      "name": "Traditional 8 Plus Steam Sauna - 4-6 Person Luxury Hemlock Sauna",
-      "brand": "Medical Saunas",
-      "price": 13649.0,
-      "retailer": "InHouse Wellness",
-      "url": "/buying-guide/#inhouse-wellness",
-      "capacity": 6,
-      "indoor_outdoor": "both",
-      "voltage": 240,
-      "fit": "family"
-    },
-    {
-      "category": "sauna",
-      "name": "Traditional 7™ Sauna | 4-Person Hemlock Sauna with Rapid Heating",
-      "brand": "Medical Saunas",
-      "price": 10799.0,
-      "retailer": "InHouse Wellness",
-      "url": "/buying-guide/#inhouse-wellness",
-      "capacity": 4,
-      "indoor_outdoor": "both",
-      "voltage": 240,
-      "fit": "family"
-    },
-    {
-      "category": "sauna",
-      "name": "Traditional 5™ 2-Person Sauna - Steam Heat with 3D Therapy™",
-      "brand": "Medical Saunas",
-      "price": 7799.0,
-      "retailer": "InHouse Wellness",
-      "url": "/buying-guide/#inhouse-wellness",
-      "capacity": 2,
-      "indoor_outdoor": "both",
-      "voltage": 240,
-      "fit": "compact"
-    },
-    {
-      "category": "sauna",
-      "name": "Traditional 6 Steam Sauna - 3 Person Capacity, Canadian Hemlock, Rapid Heating",
-      "brand": "Medical Saunas",
-      "price": 8799.0,
-      "retailer": "InHouse Wellness",
-      "url": "/buying-guide/#inhouse-wellness",
-      "capacity": 3,
-      "indoor_outdoor": "both",
-      "voltage": 240,
-      "fit": "family"
-    },
-    {
-      "category": "sauna",
       "name": "Scandia Electric DIY PreCut Sauna Room Kit PRECUT-DIY-8X9-ULTRA",
       "brand": "Scandia",
       "price": 13800.0,
@@ -822,7 +774,7 @@
       "category": "sauna",
       "name": "Scandia Electric Barrel Sauna Kit – 4-Person Traditional Sauna for Home",
       "brand": "Scandia",
-      "price": 12100.0,
+      "price": 10800.0,
       "retailer": "InHouse Wellness",
       "url": "/buying-guide/#inhouse-wellness",
       "capacity": 4,
@@ -841,18 +793,6 @@
       "indoor_outdoor": "both",
       "voltage": null,
       "fit": "family"
-    },
-    {
-      "category": "sauna",
-      "name": "Scandia Electric Barrel Sauna Kit – 4-Person Traditional Sauna for Home",
-      "brand": "Scandia",
-      "price": 10800.0,
-      "retailer": "InHouse Wellness",
-      "url": "/buying-guide/#inhouse-wellness",
-      "capacity": 4,
-      "indoor_outdoor": "outdoor",
-      "voltage": null,
-      "fit": "backyard"
     },
     {
       "category": "sauna",
@@ -1086,18 +1026,6 @@
       "category": "sauna",
       "name": "Dynamic Ultra Low EMF Far Infrared Sauna - Barcelona Elite Edition",
       "brand": "Dynamic Saunas",
-      "price": 1999.0,
-      "retailer": "InHouse Wellness",
-      "url": "/buying-guide/#inhouse-wellness",
-      "capacity": 2,
-      "indoor_outdoor": "both",
-      "voltage": null,
-      "fit": "compact"
-    },
-    {
-      "category": "sauna",
-      "name": "Dynamic Ultra Low EMF Far Infrared Sauna - Barcelona Elite Edition",
-      "brand": "Dynamic Saunas",
       "price": 2299.0,
       "retailer": "InHouse Wellness",
       "url": "/buying-guide/#inhouse-wellness",
@@ -1177,6 +1105,18 @@
       "indoor_outdoor": "both",
       "voltage": 240,
       "fit": "compact"
+    },
+    {
+      "category": "sauna",
+      "name": "Golden Designs \"Arlberg\" 3-Person Traditional Outdoor Sauna - Canadian Hemlock",
+      "brand": "Golden Designs Inc",
+      "price": 5999.0,
+      "retailer": "InHouse Wellness",
+      "url": "/buying-guide/#inhouse-wellness",
+      "capacity": 3,
+      "indoor_outdoor": "outdoor",
+      "voltage": null,
+      "fit": "backyard"
     },
     {
       "category": "sauna",
@@ -1528,21 +1468,9 @@
     },
     {
       "category": "cold-plunge",
-      "name": "Medical Frozen 4 Cold Plunge – X-Large Size (Up to 6'6\", 350 lbs) for Ultimate Cold Therapy",
-      "brand": "Frozen",
-      "price": 12649.0,
-      "retailer": "InHouse Wellness",
-      "url": "/buying-guide/#inhouse-wellness",
-      "capacity": null,
-      "indoor_outdoor": "both",
-      "voltage": null,
-      "fit": "premium"
-    },
-    {
-      "category": "cold-plunge",
       "name": "Dreampod Mineral Soaker: Hot & Cold Temperature Control",
       "brand": "Dreampod",
-      "price": 8075.0,
+      "price": 8500.0,
       "retailer": "InHouse Wellness",
       "url": "/buying-guide/#inhouse-wellness",
       "capacity": null,
@@ -1554,7 +1482,7 @@
       "category": "cold-plunge",
       "name": "Dreampod Ice Series: Cold Plunge Barrel FLEX with Chiller",
       "brand": "Dreampod",
-      "price": 3515.0,
+      "price": 3700.0,
       "retailer": "InHouse Wellness",
       "url": "/buying-guide/#inhouse-wellness",
       "capacity": null,
@@ -1590,7 +1518,7 @@
       "category": "cold-plunge",
       "name": "Dreampod Ice Bath Flex with Chiller: Your Ultimate Cold Therapy Solution",
       "brand": "Dreampod",
-      "price": 3515.0,
+      "price": 3700.0,
       "retailer": "InHouse Wellness",
       "url": "/buying-guide/#inhouse-wellness",
       "capacity": null,
