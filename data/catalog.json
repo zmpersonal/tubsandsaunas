@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21",
+  "updated_at": "2026-09-28",
   "source": "InHouse Wellness public Shopify collection data",
   "items": [
     {
@@ -1108,6 +1108,18 @@
     },
     {
       "category": "sauna",
+      "name": "Golden Designs \"Vorarlberg\" 5-Person Traditional Outdoor Sauna - Canadian Hemlock",
+      "brand": "Golden Designs Inc",
+      "price": 6999.0,
+      "retailer": "InHouse Wellness",
+      "url": "/buying-guide/#inhouse-wellness",
+      "capacity": 5,
+      "indoor_outdoor": "outdoor",
+      "voltage": null,
+      "fit": "backyard"
+    },
+    {
+      "category": "sauna",
       "name": "Golden Designs \"Arlberg\" 3-Person Traditional Outdoor Sauna - Canadian Hemlock",
       "brand": "Golden Designs Inc",
       "price": 5999.0,
@@ -1325,7 +1337,7 @@
     {
       "category": "cold-plunge",
       "name": "Dundalk LeisureCraft The Polar Cold Plunge Tub",
-      "brand": "Leisure Craft",
+      "brand": "Dundalk Leisurecraft",
       "price": 3315.0,
       "retailer": "InHouse Wellness",
       "url": "/buying-guide/#inhouse-wellness",
