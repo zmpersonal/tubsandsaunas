@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-26",
   "source": "InHouse Wellness public Shopify collection data",
   "items": [
     {
@@ -52,18 +52,6 @@
     },
     {
       "category": "sauna",
-      "name": "Maxxus Low EMF FAR Infrared Sauna - 3-Person Capacity, Canadian Hemlock",
-      "brand": "Maxxus",
-      "price": 2999.0,
-      "retailer": "InHouse Wellness",
-      "url": "/buying-guide/#inhouse-wellness",
-      "capacity": 3,
-      "indoor_outdoor": "both",
-      "voltage": null,
-      "fit": "family"
-    },
-    {
-      "category": "sauna",
       "name": "Maxxus Low EMF FAR Infrared Sauna – Canadian Hemlock – 2-Person Capacity",
       "brand": "Maxxus",
       "price": 2699.0,
@@ -71,6 +59,18 @@
       "url": "/buying-guide/#inhouse-wellness",
       "capacity": 2,
       "indoor_outdoor": "both",
+      "voltage": 120,
+      "fit": "compact"
+    },
+    {
+      "category": "sauna",
+      "name": "Dynamic Saunas DYN-6210-01 Elite Venice 2-Person Ultra Low EMF FAR Infrared Sauna",
+      "brand": "Dynamic Saunas",
+      "price": 2699.0,
+      "retailer": "InHouse Wellness",
+      "url": "/buying-guide/#inhouse-wellness",
+      "capacity": 2,
+      "indoor_outdoor": "indoor",
       "voltage": 120,
       "fit": "compact"
     },
@@ -217,18 +217,6 @@
       "indoor_outdoor": "outdoor",
       "voltage": null,
       "fit": "backyard"
-    },
-    {
-      "category": "sauna",
-      "name": "Dynamic Saunas DYN-6210-01 Elite Venice 2-Person Ultra Low EMF FAR Infrared Sauna",
-      "brand": "Dynamic Saunas",
-      "price": 2699.0,
-      "retailer": "InHouse Wellness",
-      "url": "/buying-guide/#inhouse-wellness",
-      "capacity": 2,
-      "indoor_outdoor": "indoor",
-      "voltage": 120,
-      "fit": "compact"
     },
     {
       "category": "sauna",
