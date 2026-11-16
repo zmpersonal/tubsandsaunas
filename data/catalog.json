@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-16",
   "source": "InHouse Wellness public Shopify collection data",
   "items": [
     {
@@ -241,6 +241,18 @@
       "indoor_outdoor": "both",
       "voltage": 120,
       "fit": "compact"
+    },
+    {
+      "category": "sauna",
+      "name": "Golden Designs \"Osla Edition\" 6-Person Traditional Sauna – Canadian Red Cedar & Pacific Premium Clear Cedar",
+      "brand": "Golden Designs Inc",
+      "price": 8499.0,
+      "retailer": "InHouse Wellness",
+      "url": "/buying-guide/#inhouse-wellness",
+      "capacity": 6,
+      "indoor_outdoor": "both",
+      "voltage": null,
+      "fit": "family"
     },
     {
       "category": "sauna",
